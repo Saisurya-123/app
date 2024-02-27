@@ -1,0 +1,176 @@
+/* Style all input fields */
+input {
+    width: 90%;
+    padding: 5px;
+    border: 1px solid #9f4cdf;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  input[type=text] {
+    border: 2px solid #db61d9;
+    border-radius: 15px;
+    background-color:#f6f1f6;
+    
+  }
+  input, select, textarea{
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+  input[type=email] {
+    border: 2px solid #db61d9;
+    border-radius: 15px;
+    background-color:#f2ebf2;
+  }
+  input[type=password] {
+    border: 2px solid #db61d9;
+    border-radius: 15px;
+    background-color:#f5eff4;
+  }
+nav{
+    color:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding: 0px;
+    margin-left: 0px;
+    text-align: center
+}
+p1{
+    color:#ffffff;
+    padding: 0px;
+    text-align: center;
+}
+p2{
+    font-size: 20px;
+    margin-left: 0px
+    
+}
+a{
+    font-size: 20px;
+    margin-left:0px;
+    color: white;
+}
+.us1{
+    color:#FFF;
+}
+
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #000000;
+    color: rgb(232, 34, 192);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border-radius: 15px;
+    cursor:pointer;
+  }
+  
+  /* Style the container for inputs */
+  
+  /* Style the container for inputs */
+.container {
+    padding: 0px;
+  }
+  label {
+  cursor: pointer;
+  color: #fff;
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+  /* The message box is shown when the user clicks on the password field */
+  #message {
+    display:none;
+    background:#9f4cdf;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+  
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+    color: rgb(78, 8, 144);
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10004;";
+  }
+  
+  /* Add a red text color and an "x" icon when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  .agree-checkbox{
+      padding:3px;
+      margin:2px;
+      align-items:last baseline;
+
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10006;";
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:auto;
+    
+    background-color: #FFF;
+    background-image: radial-gradient(#732a6e,#171717);
+    
+  }
+  
+  .label{
+    
+        cursor: pointer;
+        color:radial-gradient(#732a6e,#171717);;
+        display: block;
+        padding: 0px;
+        margin: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 8px;
+  }
+  .field{
+    padding: 3px;
+    border: 2px;
+    color: #ed2828;
+  }
+  .field-2{
+    padding: 3px;
+    border: 2px;
+  }
+  .field-3{
+    padding: 3px;
+    border: 2px;
+  }
+  .field-4{
+    padding: 3px;
+    border: 2px;
+  }
+  element {
+    padding: 0px;
+    margin: 0px;
+  }
+  input[type=checkbox]{
+    font-size:10px;
+  }
+  input[type=checkbox]:hover{
+    cursor: pointer;
+  }
+
