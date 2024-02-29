@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UV-vi spectra</title>
+    <link rel="stylesheet" href="uv.css">
+    <link rel="stylesheet" href="index7.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+
+    <body>
+        <div class="top-profile-bar">
+            <div class="profile-info">
+                <!--<img src="your-profile-image.jpg" alt="Your Profile Image">-->
+                <p>Analysis</p>
+            </div>
+            <div class="top-icons">
+                <!--
+                <a href="https://w3school.com"> 
+                <i class="fa fa-bell"></i>-->
+                <!--<i class="fa fa-cog"></i>
+                <i class="fa fa-sign-out"></i>
+                    -->
+                <div >
+                <a href="/sign.html">
+                    <i class="fa fa-bell"></i>
+                </a>
+                </div>
+                <div >
+                    <a href="https://google.com">
+                        <i class="fa fa-sign-out"></i>
+                        
+                    </a>
+                    </div>
+            </div>
+        </div>
+            <div class="gapo">
+        
+            </div>
+           
+
+
+
+
+        <!-- Existing body content -->
+    
+        <form action="" class="formdetails">
+
+            <p>UV Visible Testing</p>
+            
+            
+          
+
+            <div class="dropdown">
+                <span class="matty">Material type :</span><br>
+                <button class="dropdown-button" id="selectedOptionBtn" style="color:black;font-family: Arial, Helvetica, sans-serif;">Select an Option</button>
+                <div class="dropdown-content">
+                  <a href="#" onclick="updateSelectedOption('Solid')">Solid</a>
+                  <a href="#" onclick="updateSelectedOption('Liquid')">Liquid</a>
+                  <a href="#" onclick="updateSelectedOption('Fluid')">Fluid</a>
+                  <a href="#" onclick="updateSelectedOption('Powder')">Powder</a>
+                </div>
+            </div>
+            
+            <!--option2-->
+            <br><br>
+            <div class="form-element radio-buttons">
+                <span>Chemical used:</span>
+                <br>
+                <input type="text" name="entry.1363313119" id="Business" placeholder="Enter chemical" >
+                </label>
+    
+                </div>
+
+            <br>
+           
+
+            <div class="dropdown1">
+                <span class="matty">Formulation Expectation :</span><br>
+                <button class="dropdown-button" id="selectedOptionBtn1" style="color:black;font-family: Arial, Helvetica, sans-serif;">Select an Option</button>
+                <div class="dropdown-content">
+                  <a href="#" onclick="updateSelectedOption1('Nanorod')">Nanorod</a>
+                  <a href="#" onclick="updateSelectedOption1('Nanodot')">Nanodot</a>
+                  <a href="#" onclick="updateSelectedOption1('Nanosheet')">Nanosheet</a>
+                  
+                </div>
+            </div>
+            <br>
+
+            <br>
+            <!--Data-->
+            <div class="k12">
+                <span>Data File :</span>
+                
+                <input type="file" multiple class="choose">
+            </div>
+
+        </form>
+    
+        <script>
+            function updateSelectedOption(option) {
+              document.getElementById('selectedOptionBtn').innerText = option;
+            }
+
+            function updateSelectedOption1(option) {
+              document.getElementById('selectedOptionBtn1').innerText = option;
+            }
+          </script>
+
+          
+    
+    
+    <div class="gapo">
+
+    </div>
+
+    <div class="bottom-navbar">
+        <a href="/index14.html" class="bottom-nav-item active"><i class="fa fa-home"></i> Home</a>
+        <a href="#" class="bottom-nav-item"><i class="fa fa-line-chart"></i> Graph</a>
+        <a href="#" class="bottom-nav-item"><i class="fa fa-user"></i> Profile</a>
+        <a href="#" class="bottom-nav-item"><i class="fa fa-cogs"></i> Settings</a>
+    </div>
+
+</body>
+</html>
