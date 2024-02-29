@@ -1,0 +1,357 @@
+body {
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    height: 100%;
+    /*box-shadow: 0 0 20px 1px rgba(0, 0, 0, .2);*/
+    border-radius: 30px;
+    background-color: #ffffff;
+    /*background-image: radial-gradient(#732a6e,#171717);*/
+    color: black;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration-color: #000000;
+  }
+
+
+p{
+    text-align: center;
+    padding-bottom: 23px;
+    padding-top: 20px;
+    margin-left: -30px;
+    color: black;
+}
+.form-element-radio-buttons{
+   color: #000000;
+   margin-bottom: 10px;
+
+}
+
+.uhd{
+    color: #a31b1b;
+}
+
+.Personal{
+    color:#a31b1b;
+}
+.plform{
+    color: #000000;
+    padding-left: -10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Existing styles */
+.profile-info {
+    display: flex;
+    align-items: center;
+   
+  }
+  .profile-info img {
+            width: 40px; /* Adjust as needed */
+            height: 40px;
+            
+  }
+  .top-profile-bar {
+    position: fixed;
+    background-color: #f5f5f5;
+    padding: 1px 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    margin-left: -7.989px;
+    width: 100%;
+    margin-top: -8px;
+    height: 75px;
+    
+    
+  }
+  .profile-info p {
+    margin: 10;
+    font-size: 21px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 22px;
+    
+  }
+  
+  .top-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .top-icons i {
+    margin-right:20px;
+    font-size: 31px;
+    cursor: pointer;
+    color: #4d20d2;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+  .gapo{
+    padding-top: 60px;
+  }
+
+
+
+
+
+:root {
+    --form-control-color: #968eec;
+    
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 10;
+  }
+  
+  form {
+    display: grid;
+    place-content: center;
+    min-height: 13vh;
+  }
+  
+  .form-control {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.3;
+    display: grid;
+    grid-template-columns: 1em auto;
+    gap: 0.8em;
+  }
+  
+  .form-control + .form-control {
+    margin-top: 1em;
+  }
+  
+  .form-control:focus-within {
+    color: var(--form-control-color);
+  }
+  
+  input[type="radio"] {
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    /* Remove most all native input styles */
+    appearance: none;
+    /* For iOS < 15 */
+    background-color: var(--form-background);
+    /* Not removed via appearance */
+    margin: 0;
+  
+    font: inherit;
+    color: currentColor;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid currentColor;
+    border-radius: 50%;
+    transform: translateY(-0.075em);
+  
+    display: grid;
+    place-content: center;
+  }
+  
+  input[type="radio"]::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--form-control-color);
+    /* Windows High Contrast Mode */
+    background-color: CanvasText;
+  }
+  
+  input[type="radio"]:checked::before {
+    transform: scale(1);
+  }
+  
+  input[type="radio"]:focus {
+    outline: max(2px, 0.15em) solid currentColor;
+    outline-offset: max(2px, 0.15em);
+  }
+
+  .form-control1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.1;
+    display: grid;
+    grid-template-columns: 1em auto;
+    gap: 0.9em;
+  }
+  
+  .form-control1 + .form-control1 {
+    margin-top: 1em;
+  }
+  
+  .form-control1:focus-within {
+    color: var(--form-control-color);
+  }
+  
+  input[type="radio"] {
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    /* Remove most all native input styles */
+    appearance: none;
+    /* For iOS < 15 */
+    background-color: var(--form-background);
+    /* Not removed via appearance */
+    margin: 0;
+  
+    font: inherit;
+    color: currentColor;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid currentColor;
+    border-radius: 50%;
+    transform: translateY(-0.075em);
+  
+    display: grid;
+    place-content: center;
+  }
+  
+  input[type="radio"]::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--form-control-color);
+    /* Windows High Contrast Mode */
+    background-color: CanvasText;
+  }
+  
+  input[type="radio"]:checked::before {
+    transform: scale(1);
+  }
+  
+  input[type="radio"]:focus {
+    outline: max(2px, 0.15em) solid currentColor;
+    outline-offset: max(1px, 0.15em);
+  }
+  input {
+    width: 92%;
+    padding: 11px;
+    border: 1px solid #9f4cdf;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+  input[type=text] {
+    border: 2px solid #968eec;
+    border-radius: 15px;
+    background-color:#968eec;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    
+  }
+
+  input[type=file] {
+    border: 2px solid #968eec;
+    color: #968eec;
+    border-radius: 15px;
+    background-color:#968eec;
+    font-family: Arial, Helvetica, sans-serif;
+    font-display: 10px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+.bottom-navbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color:#ffffff;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -17.989px;
+  }
+  
+  .bottom-nav-item {
+    text-decoration: none;
+    color: rgb(4, 4, 4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .bottom-nav-item i {
+    margin-bottom: 5px;
+    font-size: 25px;
+  }
+  
+  .bottom-nav-item.active {
+    color: #4d20d2; /* Change to your preferred active color */
+  }
+  
+  
