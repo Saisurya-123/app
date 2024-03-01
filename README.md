@@ -1,7 +1,7 @@
 
 # App
 
-![College Logo](/logo.png)
+![College Logo](/icon.png)
 
 ## Table of Contents
 - [About](#about)
