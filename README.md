@@ -1,7 +1,7 @@
 
 # App
 
-![College Logo](/icon.png)
+![Logo](/icon.png)
 
 ## Table of Contents
 - [About](#about)
@@ -13,10 +13,7 @@
 - [License](#license)
 
 ## About
-The College Website Project is a comprehensive website designed to provide students, faculty, and staff with essential information about the college, courses and contact. This project aims to enhance communication and accessibility within the college community.
+
 
 ## Features
-- Informative landing page with college mission and highlights.
-- Detailed program and course listings with descriptions.
-- Contact information and forms for inquiries.
- 
+- I
